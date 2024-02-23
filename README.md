@@ -22,6 +22,8 @@ rm -fv /tmp/lxd.default.init
 ...
 ...
 ```
+## nfs-optimiation.sh 
+* See [How to run script after mounting NFS with systemd in Linux](https://www.cyberciti.biz/faq/how-to-run-script-after-mounting-nfs-with-systemd-in-linux/)
 # Links
 * [nixCraft blog](https://www.cyberciti.biz)
 * [nixCraft Q & A forum](https://www.nixcraft.com)
