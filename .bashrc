@@ -26,3 +26,11 @@ alias zfgrep='zfgrep --color=auto'
 alias zgrep='zgrep --color=auto'
 alias ip='ip -color=auto'
 alias ls='ls --color=auto'
+# Check for '/var/run/reboot-required' file and notify the admin when logged in via ssh
+if [ -f /var/run/reboot-required ]
+then
+	echo '***'
+	echo "ATTENTION ${USER}: Reboot required for the ${HOSTNAME}. The following files will not load without rebooting:"
+	cat /var/run/reboot-required.pkgs
+	echo '***'
+fi
