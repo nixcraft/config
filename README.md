@@ -24,6 +24,11 @@ rm -fv /tmp/lxd.default.init
 ```
 ## nfs-optimiation.sh 
 * See [How to run script after mounting NFS with systemd in Linux](https://www.cyberciti.biz/faq/how-to-run-script-after-mounting-nfs-with-systemd-in-linux/)
+
+## 1000-custom.conf
+* See [How to reload sysctl.conf variables in Linux](https://www.cyberciti.biz/faq/reload-sysctl-conf-on-linux-using-sysctl/), [Linux Kernel /etc/sysctl.conf Security Hardening
+](https://www.cyberciti.biz/faq/linux-kernel-etcsysctl-conf-security-hardening/), and [Linux Server Hardening Security Tips](https://www.cyberciti.biz/tips/linux-security.html)
+
 # Links
 This repository may be mentioned in the nixCraft blog and tutorials. Hence, it will always remain public.
 * [nixCraft blog](https://www.cyberciti.biz)
