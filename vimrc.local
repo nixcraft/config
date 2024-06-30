@@ -1,0 +1,9 @@
+" ----
+" Basic /etc/vim/vimrc.local that adds mouse support 
+" for macOS/Win10 devs over ssh for Debian 10/11/12+
+" ----
+source $VIMRUNTIME/defaults.vim
+let skip_defaults_vim = 1
+if has('mouse')
+  set mouse=r
+endif
